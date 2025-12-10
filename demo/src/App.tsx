@@ -1,3 +1,7 @@
-export default function App() {
+import type {ReactNode} from "react";
 
+export default function App(): ReactNode {
+    return <>
+        Test
+    </>
 }
