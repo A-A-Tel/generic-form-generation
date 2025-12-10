@@ -1,0 +1,16 @@
+{
+  "name": "generic-form-generation",
+  "version": "1.0.0",
+  "description": "Ever had a project that amounted to what was essentially a glorified crud app? Just use this to speed up the process of dynamic form generation!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "a-a-tel",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "react": "^19.2.1",
+    "typescript": "^5.9.3"
+  }
+}
