@@ -2,15 +2,28 @@
   "name": "generic-form-generation",
   "version": "1.0.0",
   "description": "Ever had a project that amounted to what was essentially a glorified crud app? Just use this to speed up the process of dynamic form generation!",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "a-a-tel",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-typescript": "^12.3.0",
     "@types/react": "^19.2.7",
+    "autoprefixer": "^10.4.22",
+    "postcss": "^8.5.6",
     "react": "^19.2.1",
+    "rollup": "^4.53.3",
+    "rollup-plugin-dts": "^6.3.0",
+    "tailwindcss": "^4.1.17",
     "typescript": "^5.9.3"
-  }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
 }
