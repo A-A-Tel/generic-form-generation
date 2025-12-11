@@ -1,7 +1,8 @@
 import type {ReactNode} from "react";
+import type {FormProps} from "@lib/types";
 
-export default function App(): ReactNode {
+export default function App(props: FormProps): ReactNode {
     return <>
-        Test
+        {props.title}, {props.route}
     </>
 }
