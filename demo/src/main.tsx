@@ -1,10 +1,13 @@
 import {StrictMode} from "react";
 import {createRoot} from "react-dom/client";
-import App from "./App";
+import "./css/main.css"
+import {GenericForm} from "@lib/components/Genericform";
 
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
-        <App title={"a"} route={"b"}/>
+        <GenericForm>
+
+        </GenericForm>
     </StrictMode>
 );
