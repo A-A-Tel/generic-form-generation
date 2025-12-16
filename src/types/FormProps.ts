@@ -1,4 +1,4 @@
-import type {FieldData} from "@lib/types/FieldData.ts";
+import type {FieldData} from "./FieldData";
 import type {CSSProperties} from "react";
 
 export interface FormProps {

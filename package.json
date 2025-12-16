@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "Ever had a project that amounted to what was essentially a glorified crud app? Just use this to speed up the process of dynamic form generation!",
   "scripts": {
-    "dev:demo": "vite --config vite.config.ts",
-    "build:demo": "vite build --config vite.config.ts",
-    "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+    "build": "vite build --config vite.config.lib.ts && tsc -p tsconfig.build.json",
+    "dev": "vite --config vite.config.demo.ts"
   },
   "author": "a-a-tel",
   "license": "MIT",
@@ -28,13 +26,15 @@
     "eslint-plugin-react": "^7.37.5",
     "eslint-plugin-react-hooks": "^7.0.1",
     "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react-dom": "^19.2.1",
+    "tsx": "^4.21.0"
   },
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "files": [
-    "dist"
+    "dist/lib"
   ],
   "types": "dist/index.d.ts"
 }

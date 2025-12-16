@@ -1,1 +1,1 @@
-export * from "./StringInput.tsx"
+export * from "./StringInput"

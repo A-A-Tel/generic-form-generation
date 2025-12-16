@@ -1,1 +1,1 @@
-export * from "./GenericForm.tsx"
+export * from "./GenericForm"

@@ -1,4 +1,4 @@
-import type {StringField} from "@lib/types";
+import type {StringField} from "../../types";
 
 export function StringInput(field: StringField) {
 
